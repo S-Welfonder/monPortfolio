@@ -1,10 +1,31 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
+
 /* 
     Created on : 15 nov. 2017, 12:05:13
     Author     : Simon
 */
+
+/*****************************
+*       Entête CV
+*****************************/
+
+#cv-entete { martgin-top: -45px;}
+#cv-photo { width: 172px; height: 172px; border-radius: 50%; overflow: hidden;
+            padding:5px; background: #eee; display: inline-block;}
+#cv-photo img { width: 160px; height: 160px; border-radius: 50%;}
+#cv-intro h1 { margin: 0; padding: 0; font-size:2.4em; font-weight: 700;
+                letter-spacing: -1px;}
+#cv-intro h1 span { color: rgb(226,0,26);}
+#cv-intro:after {
+    background: url('images/ligne.png') ;
+    width:100%;
+    height:3px;
+    margin-top:15px;
+    content:'';
+    display:block;
+}
+
+.rubrique { margin-bottom: 15px; }
+.rubrique h2 { color: rgb(226,0,26);}
+.rubrique h2:before { margin-right: 5px; }
+.rubrique p { font-size: 1.3em; line-height: 1.5em }
 
