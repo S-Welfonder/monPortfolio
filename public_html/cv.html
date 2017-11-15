@@ -1,16 +1,136 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
+    
     <head>
-        <title>TODO supply a title</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="Portfolio de Simon Welfonder - BTS SIO
+              SLAM">
+        <meta name="author" content="Simon Welfonder">
+        <link rel="icon" href="favicon.ico">
+        <title> Portfolio de Simon Welfonder (BTS SIO 2018) </title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- CSS style -->
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+        <link href="css/cv.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div>TODO write content</div>
-    </body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#navbar" aria-controls="navbar">
+                        <span class="sr-only">Navigation raccourcie</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"> Mon portfolio </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li> <a href="index.html"> <span
+                                    class="glyphicon glyphicon-home"> </span> Accueil </a></li>
+                        <li class="active"> <a href="cv.html"><span class="glyphicon glyphicon-object-align-top">
+                                </span> CV</a></li>
+                        <li class="dropdown"> 
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                               role="button">
+                                <span class="glyphicon glyphicon-list-alt"></span>
+                                Réalisations <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation" class="dropdown-header"> En autonomie </li>
+                                <li role="presentation">
+                                    <a role="menuitem" href="#"> Application Android </a>
+                                </li>
+                                <li role="presentation"> <a role="menuitem" href="#"> Site web </a></li>
+                                <li role="presentation">
+                                    <a role="menuitem" href="#"> Etudes et analyses </a>
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation" class="dropdown-header"> En entreprise </li>
+                                <li role="presentation">
+                                    <a role="menuitem" href="#">Projet de 1ère année</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" href="#">Projet de 2ème année</a>
+                                </li>
+                            </ul></li>
+
+                         <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><span class="glyphicon glyphicon-education"></span> Jury E4 BTS SIO <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li class="dropdown-header" role="presentation">Documentations contexte</li>
+                                <li role="presentation"><a role="menuitem" href="#">Présentation</a></li>
+                                <li role="presentation"><a role="menuitem" href="#">Application</a></li>
+                                <li role="presentation"><a role="menuitem" href="#">Missions à réaliser</a></li>
+                                <li role="presentation"><a role="menuitem" href="#">Annexes</a></li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation" class="dropdown-header">Fiches d'examen</li>
+                                <li role="presentation"><a role="menuitem" href="#">Situation professionnelle n°1</a></li>
+                                <li role="presentation"><a role="menuitem" href="#">Situation professionnelle n°2</a></li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation" class="dropdown-header">Démonstrations</li>
+                                <li role="presentation"><a role="menuitem" href="#">Démo SP n°1</a></li>
+                                <li role="presentation"><a role="menuitem" href="#">Démo SP n°2</a></li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation" class="dropdown-header">Codes sources</li>
+                                <li role="presentation"><a role="menuitem" href="#">Sources SP n°1</a></li>
+                                <li role="presentation"><a role="menuitem" href="#">Sources SP n°2</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Me contacter</a></li>
+                         
+                    </ul>
+                </div> <!-- \.nav-collapse -->
+            </div> <!-- \.navbar-collapse -->
+        </nav>
+        
+         <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2> Etudiant du CNED </h2>
+                        <p>
+                            Suivi BTS a distance car voyage, exerce une activité pro a coté
+                        </p>
+                        <p> <a class='btn btn-default' href="http.//www.cned.fr" target="_blank"
+                               role="button"> En savoir plus &raquo;</a>
+                    </div>
+                    <div class="col-md-4">
+                        <h2> Le BTS SIO </h2>
+                        <p> Choisi de faire le BTS SIO car passionné d'informatique, aime
+                        savoir comment les choses marches, mais ne voulait pas uniquement apprendre
+                        la programmation et aussi augmenter sa culture en matières plus générales
+                        analyses juridique, esprit de synthese, mathématique etc
+                        </p>
+                        <p> <a class="btn btn-default" href="https://fr.wikipedia.org/wiki
+                               Brevet_de_technicien_sup%C3%A9rieur_-Services_informatiques_aux_organisations"
+                               target="_blank" role="button"> En savoir plus &raquo;</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3> Option B SLAM </h3>
+                        <p> L'option "Solutions logicielles et applications métier" est celle qui
+                        m'a le plus intéressé car j'avais envie d'approfondir mes connaissances 
+                        en programmation de plus souhaitant intégrér une miage c'est celle qui m'a
+                        semblé le mieux correspondre à ma futur formation
+                        </p>
+                        <p> <a class="btn btn-default" href="http://www.onisep.fr/Ressources/Univers-Formation/
+                               Formations/Post-bac/BTS-Services-informatiques-aux-organisations-option-B-
+                                solutions-logicielles-et-applications-metiers" target="_blank" role="button">
+                                En savoir plus &raquo; </a>
+                        </p>
+                    </div>
+                </div>
+                
+               
+                <p id="copyright"> &copy; Simon Welfonder 2017 </p>
+                     
+                   
+            </div>
+        </footer>
 </html>
